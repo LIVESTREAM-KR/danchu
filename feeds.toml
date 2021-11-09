@@ -1,4 +1,4 @@
-[danchu]
+[ticket_open]
 title = "단추tv"
 url = "https://danchu.tv/ticket_open"
 entrySelector = "ul.xe-list-webzine-board-list li.xe-list-webzine-board-list-item"
@@ -8,7 +8,7 @@ contentSelector = "span.xe-list-webzine-board-ticket-open"
 imageSelector = "div.xe-list-webzine-board-list-item__img"
 waitUntil = "networkidle"
 
-[danchu_top]
+[ticket_open_top]
 title = "단추tv"
 url = "https://danchu.tv/ticket_open"
 entrySelector = "div[class='swiper-wrapper xf-main-slide'] a[class^='swiper-slide main-slide-link']"
