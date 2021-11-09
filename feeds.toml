@@ -7,6 +7,7 @@ linkSelector = "a.xe-list-webzine-board-list-item__text-link"
 contentSelector = "span.xe-list-webzine-board-ticket-open"
 imageSelector = "div.xe-list-webzine-board-list-item__img"
 waitUntil = "networkidle"
+onFail = "stale"
 
 [ticket_open_top]
 title = "단추tv"
@@ -17,3 +18,4 @@ linkSelector = "a[class^='swiper-slide main-slide-link']"
 contentSelector = "p.xf-slide-date"
 imageSelector = "div.main-slide-img"
 waitUntil = "networkidle"
+onFail = "stale"
